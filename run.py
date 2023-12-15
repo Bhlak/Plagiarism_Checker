@@ -46,7 +46,7 @@ def search():
         "hl": "en",
         "gl": "us",
         "google_domain": "google.com",
-        "api_key": "API KEY"
+        "api_key": "9babfa831dd4385d34e131791109e3f3acd1fd7a567348641ebc7e512bbdd3a8"
     }
 
     search = GoogleSearch(params)

@@ -2,10 +2,10 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.tag import pos_tag
-import nltk
 nltk.data.path.append("/path/to/nltk_data")
 nltk.download('averaged_perceptron_tagger')
-
+nltk.download('punkt')
+nltk.download('stopwords')
 
 def removeStopWord(text):
 
